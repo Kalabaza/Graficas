@@ -16,6 +16,9 @@
     <Filter Include="Matrix4D">
       <UniqueIdentifier>{fefe5786-da5f-4d05-bd90-6b61217c1daf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{2eb691c0-4b1c-4079-97af-4417f175eb13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,13 +33,31 @@
     <ClInclude Include="Matrix4D\Matrix4D.h">
       <Filter>Matrix4D</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshMathSurface.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\ImageBMP.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Matrix4D\Matrix4D.cpp">
+      <Filter>Matrix4D</Filter>
+    </ClCompile>
     <ClCompile Include="OpenGL2016P.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix4D\Matrix4D.cpp">
-      <Filter>Matrix4D</Filter>
+    <ClCompile Include="Mesh\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshMathSurface.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\ImageBMP.cpp">
+      <Filter>Mesh</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
